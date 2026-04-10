@@ -1,0 +1,16 @@
+services:
+  airflow:
+    image: apache/airflow:2.9.1
+    container_name: airflow_container
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./scripts:/opt/airflow/scripts
+      - ./data:/opt/airflow/data
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=SequentialExecutor
+      - AIRFLOW__WEBSERVER__WORKERS=1
+    command: >
+      bash -c "airflow db migrate && airflow webserver & airflow scheduler"
+      
