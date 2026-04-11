@@ -1,7 +1,7 @@
 # 🌎 Tourism vs CO₂ in LATAM  
 ### End-to-End Data Pipeline with Airflow + Streamlit
 
-🚀 Live Demo: https://TU-APP.streamlit.app  
+🚀 Live Demo: 🚀 Live Demo: https://tourism-co2-latam-data-pipeline-wrpgpj54yuhwc66tdgqmqn.streamlit.app/  
 
 ---
 
