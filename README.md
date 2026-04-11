@@ -126,6 +126,7 @@ streamlit run dashboard/app.py
 Tourism growth does not always correlate linearly with CO₂ emissions
 Some countries show signs of decoupling, indicating sustainable growth
 COVID-19 created visible disruptions in both tourism and emissions
+
 💼 Why This Project Matters
 
 This project demonstrates:
