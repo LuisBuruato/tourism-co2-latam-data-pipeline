@@ -11,6 +11,26 @@ This project is an end-to-end data pipeline that analyzes the relationship betwe
 
 It integrates multiple datasets, processes them through a layered architecture (Bronze → Silver → Gold), orchestrates workflows using Apache Airflow, and presents insights through an interactive Streamlit dashboard.
 
+
+
+## ⚠️ Disclaimer
+
+This repository represents a **personal implementation** of a data engineering project.
+
+While a separate version of this project is being developed collaboratively as part of a team assignment, this repository:
+
+- Uses a **different architecture and implementation approach**
+- Was built **independently for learning and portfolio purposes**
+- Does **not replicate or reuse team-owned code or assets**
+
+The goal of this project is to demonstrate individual skills in:
+
+- Data pipeline design  
+- Workflow orchestration  
+- Data modeling (Bronze / Silver / Gold)  
+- Data visualization and deployment  
+
+
 ---
 
 ## 🧠 Architecture
