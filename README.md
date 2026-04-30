@@ -1,6 +1,8 @@
 # 🌎 Tourism vs CO₂ in LATAM  
 ### End-to-End Data Pipeline with Airflow + Streamlit
 
+🚀 Production-ready data pipeline analyzing the relationship between tourism growth and CO₂ emissions in Latin America, combining ETL workflows, cloud-ready architecture, and interactive analytics.
+
 🚀 Live Demo: 🚀 Live Demo: https://tourism-co2-latam-data-pipeline-wrpgpj54yuhwc66tdgqmqn.streamlit.app/  
 
 ---
@@ -111,15 +113,38 @@ The goal of this project is to demonstrate individual skills in:
 
 ---
 
-## 🚀 How to Run Locally
+## ⚙️ How to Run Locally
 
-### 1. Clone repo
-```bash
+1. Clone the repository
+
+```
 git clone https://github.com/LuisBuruato/tourism-co2-latam-data-pipeline.git
 cd tourism-co2-latam-data-pipeline
+```
 
+2. Start services with Docker
 
+```
+docker-compose up --build
+```
+
+3. Access Airflow
+
+```
+http://localhost:8080
+```
+
+4. Run the DAG
+
+* Enable DAG: `tourism_co2_pipeline`
+* Trigger execution
+
+5. Run the dashboard
+
+```
 streamlit run dashboard/app.py
+```
+
 
 
 📌 Key Insights
