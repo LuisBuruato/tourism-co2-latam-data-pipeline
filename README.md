@@ -56,13 +56,32 @@ Interactive dashboard (Streamlit)
 Total CO₂ emissions
 Total tourism arrivals
 Decoupling index
-📈 CO₂ Emissions Over Time
+## 📊 Dashboard Features
 
-✈️ Tourism Trends
+### 🌱 KPIs Overview
+- Total CO₂ emissions  
+- Total tourism arrivals  
+- Decoupling index  
 
-🔗 Correlation Analysis
+---
 
-🏆 Sustainability Ranking
+### 📈 CO₂ Emissions Over Time
+![CO2](https://raw.githubusercontent.com/LuisBuruato/tourism-co2-latam-data-pipeline/main/assets/TourismvsCO2.PNG)
+
+---
+
+### ✈️ Tourism Trends
+![Tourism](https://raw.githubusercontent.com/LuisBuruato/tourism-co2-latam-data-pipeline/main/assets/TourismArrivals.PNG)
+
+---
+
+### 🔗 Correlation Analysis
+![Correlation](https://raw.githubusercontent.com/LuisBuruato/tourism-co2-latam-data-pipeline/main/assets/TourismCorrelation.PNG)
+
+---
+
+### 🏆 Sustainability Ranking
+![Sustainable](https://raw.githubusercontent.com/LuisBuruato/tourism-co2-latam-data-pipeline/main/assets/SustainableCountries.PNG)
 
 📈 Results
 Consolidated datasets across multiple LATAM sources
