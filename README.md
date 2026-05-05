@@ -42,7 +42,8 @@ Cleaned and integrated datasets
 Gold Layer
 Aggregated KPIs ready for analytics
 Visualization
-Interactive dashboard (Streamlit)
+Interactive dashboard (Streamlit) 
+
 ⚙️ Tech Stack
 🐍 Python
 📊 Pandas
@@ -90,7 +91,9 @@ Delivered interactive insights via dashboard
 📌 Key Insights
 Tourism growth does not always correlate linearly with CO₂ emissions
 Some countries show signs of decoupling, indicating sustainable growth
-COVID-19 created visible disruptions in both tourism and emissions
+COVID-19 created visible disruptions in both tourism and emissions.
+
+
 🗂️ Project Structure
 ├── dags/                # Airflow DAGs
 ├── scripts/             # ETL scripts
@@ -100,6 +103,7 @@ COVID-19 created visible disruptions in both tourism and emissions
 ├── assets/              # Images for documentation
 ├── docker-compose.yml   # Airflow setup
 ├── requirements.txt
+
 ⚙️ How to Run Locally
 1. Clone the repository
 git clone https://github.com/LuisBuruato/tourism-co2-latam-data-pipeline.git
@@ -113,6 +117,8 @@ Enable DAG: tourism_co2_pipeline
 Trigger execution
 5. Run the dashboard
 streamlit run dashboard/app.py
+
+
 💼 Why This Project Matters
 
 This project demonstrates:
@@ -122,9 +128,12 @@ Workflow orchestration with Airflow
 Data modeling (Bronze / Silver / Gold)
 Data visualization & storytelling
 Production-ready pipeline design
+
+
 🧠 Note
 
 This is an independent implementation created for portfolio purposes, using a custom architecture and design approach.
+
 
 🚀 Future Improvements
 Real-time data ingestion (streaming)
