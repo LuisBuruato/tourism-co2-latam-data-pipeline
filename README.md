@@ -1,36 +1,61 @@
-# 🌎 Tourism vs CO₂ in LATAM  
-### End-to-End Data Pipeline with Airflow + Streamlit
+🚀 TL;DR  
+End-to-end data pipeline on AWS analyzing tourism vs CO₂ emissions in LATAM, using Medallion Architecture (Bronze → Silver → Gold), orchestrated with Airflow and visualized in Streamlit.
 
-🚀 Production-ready data pipeline analyzing the relationship between tourism growth and CO₂ emissions in Latin America, combining ETL workflows, cloud-ready architecture, and interactive analytics.
 
-🚀 Live Demo: 🚀 Live Demo: https://tourism-co2-latam-data-pipeline-wrpgpj54yuhwc66tdgqmqn.streamlit.app/  
+📌 Overview
 
----
-
-## 📌 Overview
-
-This project is an end-to-end data pipeline that analyzes the relationship between **tourism activity and CO₂ emissions across Latin America**.
+This project is an end-to-end data pipeline that analyzes the relationship between tourism activity and CO₂ emissions across Latin America.
 
 It integrates multiple datasets, processes them through a layered architecture (Bronze → Silver → Gold), orchestrates workflows using Apache Airflow, and presents insights through an interactive Streamlit dashboard.
 
+🎯 Objectives
+Analyze correlations between tourism growth and environmental impact
+Build a scalable and modular data pipeline
+Apply Medallion Architecture (Bronze → Silver → Gold)
+Enable data-driven insights through visualization
+🏗️ Architecture
 
+The pipeline follows a layered architecture:
 
-## ⚠️ Disclaimer
+Bronze Layer → Raw data ingestion from external sources
+Silver Layer → Data cleaning, validation, and transformation
+Gold Layer → Aggregated and analytics-ready datasets
 
-This repository represents a **personal implementation** of a data engineering project.
+Orchestrated using Apache Airflow and stored in AWS (S3 + processing layer).
 
-While a separate version of this project is being developed collaboratively as part of a team assignment, this repository:
+⚙️ Tech Stack
+Languages: Python, SQL
+Orchestration: Apache Airflow
+Storage: AWS S3
+Processing: Pandas / PySpark (depending on your setup)
+Visualization: Streamlit
+Version Control: Git & GitHub
 
-- Uses a **different architecture and implementation approach**
-- Was built **independently for learning and portfolio purposes**
-- Does **not replicate or reuse team-owned code or assets**
+📊 Key Features
+Automated ETL pipeline
+Modular and scalable design
+Data validation and transformation layers
+Interactive dashboard for exploration
+Cloud-based architecture
 
-The goal of this project is to demonstrate individual skills in:
+📈 Results
+Consolidated datasets across multiple LATAM sources
+Identified trends between tourism and CO₂ emissions
+Delivered interactive insights via dashboard
 
-- Data pipeline design  
-- Workflow orchestration  
-- Data modeling (Bronze / Silver / Gold)  
-- Data visualization and deployment  
+🧠 Note
+
+This is an independent implementation created for portfolio purposes, using a custom architecture and design approach.
+
+🚀 Future Improvements
+Real-time data ingestion (streaming)
+Advanced analytics / forecasting models
+Data quality monitoring (Great Expectations)
+CI/CD pipeline for automated deployments
+
+👨‍💻 Author
+
+Luis Ramón Buruato
 
 
 ---
